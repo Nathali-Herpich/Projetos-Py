@@ -4,7 +4,7 @@ def adicionar_Contato():
     nome = input('Digite seu nome: ')
     telefone = input('Digite seu telefone: ')
     agenda[nome] = telefone
-    print(f'✅ Contato {nome} adicionado com sucesso!\n')
+    print(f'Contato {nome} adicionado com sucesso!\n')
 
 def listar_Contatos():
     if not agenda:
@@ -43,3 +43,4 @@ while True:
         break
     else:
         print(' Erro! Opção inválida!')
+
